@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Js</title>
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <!-- <script>
+
+        function myFunction() {
+            let carName = "Honda";
+            let text = "Inside: " + typeof carName + " " + carName;
+            document.getElementById("demo2").innerHTML = text;
+        }
+        let text = "Outside: " + typeof carName + " " + carName;;
+        document.getElementById("demo1").innerHTML = text;
+
+        myFunction();
+    </script> -->
+    <script>
+        let text = "Outside: " + typeof carName;
+        console.log(typeof carName)
+        document.getElementById("demo1").innerHTML = text;
+        const myFunction = () => {
+            let carName = "Volvo";
+            let text = "Inside: " + typeof carName + " " + carName;
+            document.getElementById("demo2").innerHTML = text;
+        }
+        myFunction();
+    </script>
+</body>
+</html>
